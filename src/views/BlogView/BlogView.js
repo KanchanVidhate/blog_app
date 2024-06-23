@@ -13,7 +13,7 @@ import blogs from "./../../data"
 
     return (
         <div>
-            <h1>{selectedBlog.title}</h1>
+            <h1 >{selectedBlog.title}</h1>
             <p>
                 <img src={selectedBlog.author.avatar} alt="author" height="20px"/>
             </p>

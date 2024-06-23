@@ -9,7 +9,7 @@ function BlogCard({ id, title,content,author,date,categories}){
         <p className="blog-content-preview">
             { content.substring(0,70)  }...
         </p>
-        <div className="author-card">
+        <div className="author-card blog-content2">
 
         <img src={author.avatar} alt="author" className="author-avatar"/>
             <span className="author-name">{author.name} </span>
