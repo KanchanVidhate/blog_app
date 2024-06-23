@@ -26,8 +26,14 @@ import blogs from "./../../data"
                  {selectedBlog.content}  </p><br></br>
 
           <p className="line-style">_____________________________________________________________</p>
-          <p>
-              <img src={selectedBlog.url} alt="author" height="50px" className="comment-img "/>
+          <p className="space">
+              <img src={selectedBlog.url} alt="author" height="50px" className="comment-img "/> &nbsp;&nbsp;&nbsp;&nbsp;
+              <img src={selectedBlog.share} alt="author" height="50px" className="comment-img "/>&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src={selectedBlog.like} alt="author" height="50px" className="comment-img "/>&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src={selectedBlog.follow} alt="author" height="50px" className="comment-img "/>
+
+
+
           </p>
 
         </div>

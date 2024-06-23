@@ -16,7 +16,11 @@ import  BlogCard from "./../../components/BlogCard/BlogCard"
             content,
             author,
             date,
-            categories
+            categories,
+            url,
+            share,
+            like,
+            follow,
           } = blogObject
 
           return (
@@ -27,7 +31,12 @@ import  BlogCard from "./../../components/BlogCard/BlogCard"
          content={content}
          author={author}
          date={date}
-         categories={categories}/>)
+         categories={categories}
+         url={url}
+         share={share}
+         like={like}
+         follow={follow}
+         />)
         })
        }
        </div>
