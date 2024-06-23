@@ -4,13 +4,14 @@ const blogs=[
 {
     id: "a",
     title: "Introduction to React",
-    content: "ReactJS, also known as React, is a popular JavaScript library for building user interfaces. It is also referred to as a front-end JavaScript library. It was developed by Facebook and is widely used for creating dynamic and interactive web applications. In this article, we’ll explore the key concepts of React.React is a JavaScript library for building user interfaces (UIs) on the web. React is a declarative, component based library that allows developers to build reusable UI components and It follows the Virtual DOM (Document Object Model) approach, which optimizes rendering performance by minimizing DOM updates. React is fast and works well with other tools and libraries.",
+    content: "ReactJS, also known as React, is a popular JavaScript library for building user interfaces. It is also referred to as a front-end JavaScript library. It was developed by Facebook and is widely used for creating dynamic and interactive web applications. In this article, we'll explore the key concepts of React.React is a JavaScript library for building user interfaces (UIs) on the web. React is a declarative, component based library that allows developers to build reusable UI components and It follows the Virtual DOM (Document Object Model) approach, which optimizes rendering performance by minimizing DOM updates. React is fast and works well with other tools and libraries.Start by deciding what features your blog will have. For instance, you might want to include the ability to add and delete blog posts, display details about each post, and fetch data from a local JSON server,Keep in mind that this will be a purely React-based blog, meaning there won't be any back-end servers involved. Changes made on the page won't be saved between refreshes. Before diving into coding, make sure you have Node.js and NPM installed on your system. If not, you can download them from the official website. npm  helps manage dependencies and modules for your back-end.Set up a new React project using tools like Create React App or manually configure your project.Create components for your blog, such as a list of blog posts, a form for adding new posts, and a component to display post details.Use React Router to handle navigation between different views (e.g., list view and individual post view). Fetch blog data from a local JSON server or an API (if you decide to add a back-end later).Display the fetched data in your blog components.",
     author:{
         name: "Kanchan Vidhate",
         avatar: "https://i.pravatar.cc/150?img=5"
     },
     date:"June  01, 2023",
     categories:["React","Javascripts","Frontend"],
+    url:"https://th.bing.com/th/id/R.294510907907cf92c791018a81c77a3d?rik=2VGLyZcrY9qrXg&pid=ImgRaw&r=0",
 
 },
 { 

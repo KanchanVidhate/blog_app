@@ -1,0 +1,93 @@
+
+.Blog-Contain{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    background-color: #fff;
+    height: 800px;
+    width: 400px;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+.Blog-Contain:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+.title-style{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 700;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.BlogView-img{
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    display: grid;
+  
+}
+
+.BlogView-img:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.line-style{
+    text-align: center;
+    color: rgb(113, 116, 116);
+    margin-top: -20px;
+    margin-bottom: 15px;
+
+ 
+}
+
+.author-style{
+    
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.date-style{
+    
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.pare-style{
+    font-family : Verdana;
+    font-size: 13px;
+   
+}
+
+.comment-img {
+    border-radius: 40px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 40px;
+    width: 40px;
+    margin: auto;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+.comment-img:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
