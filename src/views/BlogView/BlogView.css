@@ -33,7 +33,7 @@
     width: 60px;
     margin: auto;
     display: grid;
-  
+
 }
 
 .BlogView-img:hover{
@@ -46,8 +46,6 @@
     color: rgb(113, 116, 116);
     margin-top: -20px;
     margin-bottom: 15px;
-
- 
 }
 
 .author-style{
@@ -73,7 +71,6 @@
     font-size: 13px;
    
 }
-
 .comment-img {
     border-radius: 40px;
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -85,8 +82,7 @@
     
 }
 .comment-img:hover{
-    
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)  0 8px 16px 0 rgba(0, 0, 0, 0.2),;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)  0 8px 16px 0 rgba(0, 0, 0, 0.2),;
 }
 
 .space{
