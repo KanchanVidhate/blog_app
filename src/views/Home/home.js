@@ -11,6 +11,7 @@ import  BlogCard from "./../../components/BlogCard/BlogCard"
        {
         blogs.map((blogObject,i)=>{
           const {
+            id,
             title,
             content,
             author,
@@ -19,13 +20,14 @@ import  BlogCard from "./../../components/BlogCard/BlogCard"
           } = blogObject
 
           return (
-            < BlogCard
+            <BlogCard
             key={i}
+            id={id}
          title={title}
          content={content}
          author={author}
          date={date}
-         categories={categories}  />)
+         categories={categories}/>)
         })
        }
        </div>
